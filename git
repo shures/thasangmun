@@ -1,3 +1,8 @@
 git init
 git config --global user.name shures
 git config --global user.email shures.nepali@gmail.com
+git add *
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/shures/thasangmun.git
+git push -u origin main
